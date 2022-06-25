@@ -1,0 +1,76 @@
+.grid-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(backgroundimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+body {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  color: #292929;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0.2em;
+}
+
+h2 {
+  margin: .5em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid rgb(211, 211, 211);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+  color: #3fffff;
+}
+
+input[type=number] {
+  width: 2em;
+  padding: 7px;
+  
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.12), 0 8px 25px 0 rgba(0,0,0,0.12);
+
+}
+
+input[type=submit]{
+  background-color: #343437; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+input{
+  margin: 5px;
+  
+}
